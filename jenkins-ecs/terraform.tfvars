@@ -1,0 +1,9 @@
+  aws_region              = "us-east-1"
+  prefix                  = "jenkins-serverless"
+  vpc_id                  = "vpc-08bb53785e0b62d28"
+  jenkins_controller_port = "8080"
+  jenkins_agent_port      = "50000"
+  private_subnets         = ["subnet-0e41e0ae6e3c5b3d5", "subnet-026d1b9395d6f632c"]
+  public_subnets          = ["subnet-09d7b4db284d5437f", "subnet-04165a3e441a7810d"]
+  jenkins_controller_cpu  = "4096"
+  jenkins_controller_mem  = "8192"
